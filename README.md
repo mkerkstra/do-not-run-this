@@ -1,14 +1,13 @@
-*Psst — looking for a more complete solution? Check out [SvelteKit](https://kit.svelte.dev), the official framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.*
-
-*Looking for a shareable component template instead? You can [use SvelteKit for that as well](https://kit.svelte.dev/docs#packaging) or the older [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
 
 # svelte app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+This was created with a project template for [Svelte](https://svelte.dev) apps. Then updated to use typescript with [tsconfig/svelte](https://github.com/tsconfig/bases#svelte-tsconfigjson)
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+More on Svelte:
+*Psst — looking for a way better svelte examples? Check out [SvelteKit](https://kit.svelte.dev)*
+
 
 ```bash
 npx degit sveltejs/template svelte-app
@@ -33,7 +32,7 @@ npm install
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigate to [localhost:5000](http://localhost:5000). You might should see the app running. Then you'll maybe see some pretty colors scroll across the screen at like 2 frames per minute, then your fans will kick up, then your browser will become unresponsive, then you'll need to force quit your browser.
 
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
